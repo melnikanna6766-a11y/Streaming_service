@@ -1,6 +1,6 @@
 --liquibase formatted SQL
 
---changeset liquibase:005
+--changeset liquibase:create-album-types-table
 create table album_types
 (
     id         bigserial primary key,

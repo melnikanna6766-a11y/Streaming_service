@@ -1,6 +1,6 @@
 --liquibase formatted SQL
 
---changeset liquibase:007
+--changeset liquibase:create-tracks-table
 create table tracks
 (
     id         bigserial primary key,

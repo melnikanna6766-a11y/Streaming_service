@@ -1,6 +1,6 @@
 --liquibase formatted SQL
 
---changeset liquibase:010
+--changeset liquibase:create-albums-labels-table
 create table albums_labels
 (
     id       bigserial primary key,

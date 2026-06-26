@@ -1,6 +1,6 @@
 --liquibase formatted SQL
 
---changeset liquibase:009
+--changeset liquibase:create-labels-table
 create table labels
 (
     id         bigserial primary key,

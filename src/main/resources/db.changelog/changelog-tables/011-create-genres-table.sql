@@ -1,6 +1,6 @@
 --liquibase formatted SQL
 
---changeset liquibase:011
+--changeset liquibase:create-genres-table
 create table genres
 (
     id    bigserial primary key,

@@ -1,7 +1,7 @@
 --liquibase formatted SQL
 
 
---changeset liquibase:008
+--changeset liquibase:create-playlists-table
 create table playlists
 (
     id            bigserial primary key,

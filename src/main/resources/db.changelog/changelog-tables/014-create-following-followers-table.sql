@@ -1,6 +1,6 @@
 --liquibase formatted SQL
 
---changeset liquibase:014
+--changeset liquibase:create-following-followers-table
 create table following_followers
 (
     id           bigserial primary key,

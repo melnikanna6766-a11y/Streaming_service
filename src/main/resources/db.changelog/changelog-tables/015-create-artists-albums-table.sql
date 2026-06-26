@@ -1,6 +1,6 @@
 --liquibase formatted SQL
 
---changeset liquibase:015
+--changeset liquibase:create-artists-albums-table
 create table artists_albums
 (
     id        bigserial primary key,

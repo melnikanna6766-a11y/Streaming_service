@@ -1,6 +1,6 @@
 --liquibase formatted SQL
 
---changeset liquibase:002
+--changeset liquibase:create-countries-codes-table
 create table countries_codes
 (
     code         varchar(3) primary key,

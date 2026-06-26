@@ -1,6 +1,6 @@
 --liquibase formatted SQL
 
---changeset liquibase:003
+--changeset liquibase:create-roles-table
 create table roles
 (
     id   bigserial primary key,

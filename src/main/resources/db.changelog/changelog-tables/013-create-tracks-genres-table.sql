@@ -1,6 +1,6 @@
 --liquibase formatted SQL
 
---changeset liquibase:013
+--changeset liquibase:create-tracks-genres-table
 create table tracks_genres
 (
     track_id bigint references tracks (id),

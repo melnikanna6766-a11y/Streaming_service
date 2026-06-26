@@ -1,6 +1,6 @@
 --liquibase formatted SQL
 
---changeset liquibase:001
+--changeset liquibase:create-subscription-plans-table
 create table subscription_plans
 (
     id             bigserial primary key,
