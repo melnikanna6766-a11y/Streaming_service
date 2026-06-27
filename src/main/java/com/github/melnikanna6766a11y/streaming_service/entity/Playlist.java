@@ -32,5 +32,5 @@ public class Playlist {
     private Set<Profile> users;
 
     @OneToMany(mappedBy = "playlist", fetch = FetchType.LAZY)
-    private Set<TrackPlaylistId> tracks;
+    private Set<TrackPlaylist> tracks;
 }

@@ -32,7 +32,7 @@ public class Track {
     private String trackName;
 
     @Column
-    private int track;
+    private byte[] track;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "album_id")
@@ -47,5 +47,5 @@ public class Track {
     private Set<Genre> genres;
 
     @OneToMany(mappedBy = "track", fetch = FetchType.LAZY)
-    private Set<TrackPlaylistId> playlists;
+    private Set<TrackPlaylist> playlists;
 }

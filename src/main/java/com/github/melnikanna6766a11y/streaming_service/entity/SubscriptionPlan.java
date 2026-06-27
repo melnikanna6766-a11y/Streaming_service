@@ -28,7 +28,7 @@ public class SubscriptionPlan {
     private String type;
 
     @Column(name = "cost_per_month")
-    private float cost_per_month;
+    private float costPerMonth;
 
     @OneToMany(mappedBy = "subscription", fetch = FetchType.LAZY)
     private Set<Profile> profiles;
