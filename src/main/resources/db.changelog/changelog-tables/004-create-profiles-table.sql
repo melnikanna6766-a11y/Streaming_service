@@ -1,6 +1,6 @@
 --liquibase formatted SQL
 
---changeset liquibase:004
+--changeset liquibase:create-profiles-table
 create table profiles
 (
     id                    bigserial primary key,

@@ -3,8 +3,8 @@
 --changeset liquibase:create-artists-albums-table
 create table artists_albums
 (
-    id        bigserial primary key,
     artist_id bigint references profiles (id),
-    album_id  bigint references albums (id)
+    album_id  bigint references albums (id),
+    primary key (artist_id, album_id)
 );
 --rollback drop table artists_albums;
